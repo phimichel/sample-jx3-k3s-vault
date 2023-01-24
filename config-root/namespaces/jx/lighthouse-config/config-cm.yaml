@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         phimichel/sample-jx3-k3s-vault: true
+        phimichel/try-jenkinx-golang-http: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -20,6 +21,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         phimichel/sample-jx3-k3s-vault: merge
+        phimichel/try-jenkinx-golang-http: merge
       queries:
       - labels:
         - approved
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - phimichel/sample-jx3-k3s-vault
+        - phimichel/try-jenkinx-golang-http
       - labels:
         - updatebot
         missingLabels:
@@ -41,6 +44,7 @@ data:
         - needs-rebase
         repos:
         - phimichel/sample-jx3-k3s-vault
+        - phimichel/try-jenkinx-golang-http
       target_url: http://lighthouse.jx.172.18.0.2.nip.io/merge/status
 kind: ConfigMap
 metadata:
