@@ -47,5 +47,7 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/jx-pipelines-visualizer/values.yaml.gotmpl
   - jx-values.yaml
+- chart: jxgh/lighthouse-webui-plugin
+  name: lighthouse-webui-plugin
 templates: {}
 renderedvalues: {}
