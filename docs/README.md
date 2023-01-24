@@ -51,6 +51,13 @@
 	      <td><a href='https://github.com/jenkins-x/jx-pipelines-visualizer'>source</a></td>
 	    </tr>
     <tr>
+	      <td>lighthouse-webui-plugin</td>
+	      <td title='Web UI for Lighthouse, to visualize events, jobs, and merge status/history.'><a href='https://github.com/jenkins-x-plugins/lighthouse-webui-plugin'> <img src='https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg' width='24px' height='24px'> lighthouse-webui-plugin</a></td>
+	      <td>0.1.7</td>
+	      <td></td>
+	      <td><a href='https://github.com/jenkins-x-plugins/lighthouse-webui-plugin'>source</a></td>
+	    </tr>
+    <tr>
 		      <td colspan='5'><h3>secret-infra</h3></td>
 		    </tr>
 	    <tr>
