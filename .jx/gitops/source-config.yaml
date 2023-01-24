@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: jenkinsx-tutorial
     - name: try-jenkinx-golang-http
     scheduler: in-repo
   slack:
