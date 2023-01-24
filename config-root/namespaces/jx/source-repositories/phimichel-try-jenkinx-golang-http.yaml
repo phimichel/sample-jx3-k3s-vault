@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: phimichel
+    provider: github
+    repository: try-jenkinx-golang-http
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: phimichel-try-jenkinx-golang-http
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/phimichel/try-jenkinx-golang-http.git
+  org: phimichel
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: try-jenkinx-golang-http
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/phimichel/try-jenkinx-golang-http
