@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: jenkinsx-tutorial
+    - name: sample-jx3-k3s-vault
     - name: try-jenkinx-golang-http
     scheduler: in-repo
   slack:
