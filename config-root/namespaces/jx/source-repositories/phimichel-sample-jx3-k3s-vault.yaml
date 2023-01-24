@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: phimichel
+    provider: github
+    repository: sample-jx3-k3s-vault
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: phimichel-sample-jx3-k3s-vault
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/phimichel/sample-jx3-k3s-vault.git
+  org: phimichel
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: sample-jx3-k3s-vault
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/phimichel/sample-jx3-k3s-vault

@@ -12,6 +12,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - phimichel/sample-jx3-k3s-vault
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - phimichel/try-jenkinx-golang-http
       require_self_approval: true
     cat: {}
@@ -101,6 +105,9 @@ data:
       trusted_org: todo
     - repos:
       - phimichel/jenkinsx-tutorial
+      trusted_org: todo
+    - repos:
+      - phimichel/sample-jx3-k3s-vault
       trusted_org: todo
     - repos:
       - phimichel/try-jenkinx-golang-http
