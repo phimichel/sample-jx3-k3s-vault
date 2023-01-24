@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: phimichel
+    provider: github
+    repository: jenkinsx-tutorial
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: phimichel-jenkinsx-tutorial
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/phimichel/jenkinsx-tutorial.git
+  org: phimichel
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jenkinsx-tutorial
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/phimichel/jenkinsx-tutorial
